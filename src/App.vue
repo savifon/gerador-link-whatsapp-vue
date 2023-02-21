@@ -1,9 +1,15 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
+import Generator from "@/components/Generator.vue";
+</script>
 
 <template>
-  <div>
-    <h1>Hello World</h1>
-  </div>
-</template>
+  <Header />
 
-<style scoped></style>
+  <main class="p-4">
+    <Generator />
+  </main>
+
+  <Footer />
+</template>
