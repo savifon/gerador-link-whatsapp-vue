@@ -5,3 +5,7 @@
 #app {
   @apply min-h-[100vh] flex flex-col justify-between gap-6
 }
+
+*[disabled] {
+  @apply cursor-not-allowed
+}

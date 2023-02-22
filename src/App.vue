@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import Header from "@/components/Header.vue";
-import Footer from "@/components/Footer.vue";
-import Generator from "@/components/Generator.vue";
+import BaseHeader from "@/components/BaseHeader.vue";
+import BaseFooter from "@/components/BaseFooter.vue";
+import LinkGenerator from "@/components/LinkGenerator.vue";
 </script>
 
 <template>
-  <Header />
+  <BaseHeader />
 
   <main class="p-4">
-    <Generator />
+    <LinkGenerator />
   </main>
 
-  <Footer />
+  <BaseFooter />
 </template>
